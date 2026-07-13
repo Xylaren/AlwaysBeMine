@@ -297,10 +297,10 @@ export default function Page() {
         title: "My love for you is endless, like the stars in the sky—shining for you every night, even if you don’t always notice. 🌟 I’ll wait patiently, proving every day that you’re my everything. ❤️ Please press ‘Yes’ and let’s make this a forever story. 🥰✨<br/>'True love never gives up; it grows stronger with time.'",
         width: 850,
         padding: "2em",
-        color: "#716add",
+        color: "#4b42ce",
         background: `#fff url(${swalbg})`,
         backdrop: `
-          rgba(0, 104, 123, 0.7)
+          rgba(9, 117, 136, 0.7)
           url(${nogif1})
           right
           no-repeat
@@ -345,8 +345,11 @@ export default function Page() {
               alt="Love Animation"
             />
             <h1 className="text-4xl md:text-6xl my-4 text-center">
-              Will you be my Valentine?
+              Happy Anniversary Shriya
             </h1>
+            <h2 className="text-2xl md:text-4xl mb-4 text-center">
+              I know it's weird, but will you be my girlfriend (even though you already are)?
+            </h2>
             <div className="flex flex-wrap justify-center gap-2 items-center">
               <button
                 onMouseEnter={handleMouseEnterYes}
@@ -383,28 +386,10 @@ export default function Page() {
         >
           {isMuted ? <BsVolumeMuteFill size={26} /> : <BsVolumeUpFill size={26} />}
         </button>
-        <Footer />
       </div>
     </>
   );
 }
-
-const Footer = () => {
-  return (
-    <a
-      className="fixed bottom-2 right-2 backdrop-blur-md opacity-80 hover:opacity-95 border p-1 rounded border-rose-300"
-      href="https://github.com/UjjwalSaini07"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Made with{" "}
-      <span role="img" aria-label="heart">
-        ❤️
-      </span>
-      {" "}by Ujjwal
-    </a>
-  );
-};
 
 
 
